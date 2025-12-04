@@ -16,8 +16,8 @@ All code in this repository is self-contained and reproduces the experimental me
 
 ```
 .
-├── GenCQMModel.py            # Constrained QP → BQM → Hybrid solver model
-├── GenMILPModel.py           # Mixed-Integer Linear Programming baseline
+├── CQM2BQM.ipynb            # Constrained QP → BQM → Hybrid solver model
+├── MILP_and_CQM.py           # Mixed-Integer Linear Programming baseline
 ├── makefigures.py            # Plotting functions for paper figures
 └── README.md
 ```
@@ -149,3 +149,4 @@ plot_time_boxplot_broken(
 # 📜 License
 
 MIT License.
+
