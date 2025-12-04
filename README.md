@@ -17,7 +17,7 @@ All code in this repository is self-contained and reproduces the experimental me
 ```
 .
 ├── CQM2BQM.ipynb            # Constrained QP → BQM → Hybrid solver model
-├── MILP_and_CQM.py           # Mixed-Integer Linear Programming baseline
+├── MILP_and_CQM.ipynb           # Mixed-Integer Linear Programming baseline
 ├── makefigures.py            # Plotting functions for paper figures
 └── README.md
 ```
@@ -39,9 +39,9 @@ If using GUROBI:
 
 ---
 
-# 🚀 GenCQMModel (CQM → BQM → Hybrid Quantum Solver)
+# 🚀 CQM2BQM (CQM → BQM → Hybrid Quantum Solver)
 
-`GenCQMModel` implements:
+`CQM2BQM` implements:
 
 - Multi-round Boolean variable construction  
 - S-box constraints via a simple arithmetic-string parser  
@@ -91,9 +91,9 @@ This procedure:
 
 ---
 
-# 🚀 GenMILPModel (Classical MILP Baseline)
+# 🚀 MILP_and_CQM (Classical MILP Baseline)
 
-`GenMILPModel` is the classical version of the experiment using:
+`MILP_and_CQM` is the classical version of the experiment using:
 
 - OR-Tools interface  
 - GUROBI / SCIP backend  
@@ -149,4 +149,5 @@ plot_time_boxplot_broken(
 # 📜 License
 
 MIT License.
+
 
