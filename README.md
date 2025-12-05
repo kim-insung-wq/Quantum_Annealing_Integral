@@ -143,11 +143,12 @@ plot_time_boxplot_broken(
     solvers=["MILP", "HYBRID", "QPU"],
     save_path="plots/runtime.png"
 )
-
+```
 ---
 
 # 📜 License
 
 MIT License.
+
 
 
